@@ -15,4 +15,5 @@ function doSomething(foo : Foo) {
 	return {...foo, fooBar: "world"}
 }
 
-doSomething(foo);
+const bar : any = {fooId:1, fooValue: "djdjdj"};
+doSomething(bar);
