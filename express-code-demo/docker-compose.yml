@@ -6,7 +6,7 @@ services:
     volumes:
       - misquote-cohort-27:/var/lib/mysql
     env_file:
-      - ./.env
+      - .env
     command: --default-authentication-plugin=mysql_native_password
     ports:
       - 3306:3306
